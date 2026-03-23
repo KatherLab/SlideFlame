@@ -1,0 +1,13 @@
+einops
+einops-exts
+numpy>=1.26
+h5py
+pandas
+tqdm
+transformers>=4.40.0
+accelerate>=0.26.0
+peft>=0.10.0
+sentencepiece
+protobuf
+safetensors
+wandb

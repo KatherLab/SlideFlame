@@ -1,0 +1,4 @@
+slideflame.egg-info/
+__pycache__/
+eval/parameters.py
+train.sh
