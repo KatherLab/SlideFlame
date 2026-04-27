@@ -187,6 +187,13 @@ Use `--patch_ext .h5` if the patch features are stored as HDF5 files instead of 
   - `data.py`: Dataset classes
 - `slideflame/eval/`: Report generation tools
 
+## ToDo
+- Train.sh (Patch Only OR Patch+Slide)
+- LoRA_finetune.sh
+- Report_generation.sh
+- NLG metrics calculation script
+- bNLI calculation script
+
 ## Contributing
 
 Contributions are welcome! Please submit issues and pull requests.
