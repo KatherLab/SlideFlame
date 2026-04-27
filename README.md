@@ -13,7 +13,7 @@ SlideFlame is a slide-level vision-language model based on the Open-Flamingo arc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Srividhya-Sainath/SlideFlame.git
+   git clone https://github.com/KatherLab/SlideFlame.git
    cd SlideFlame
    ```
 
