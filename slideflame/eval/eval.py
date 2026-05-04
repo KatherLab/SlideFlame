@@ -264,8 +264,8 @@ def main():
     ckpt = torch.load(args.checkpoint_path, map_location="cpu")
     state_dict = ckpt["model_state_dict"] if "model_state_dict" in ckpt else ckpt
     state_dict = {k.replace("module.", ""): v for k, v in state_dict.items()}
-    missing, unexpected = model.load_state_dict(state_dict, strict=False)
-    print(f"Loaded checkpoint with {len(missing)} missing and {len(unexpected)} unexpected keys.")
+    model.load_state_dict(state_dict, strict=False)
+    print("Checkpoint loaded !")
 
     # Manifest: CSV optional
     if args.csv_path:
