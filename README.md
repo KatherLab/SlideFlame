@@ -1,5 +1,7 @@
 # SlideFlame
 
+[![Model Weights](https://img.shields.io/badge/Model%20Weights-Hugging%20Face-yellow?logo=huggingface)](https://huggingface.co/KatherLab/SlideFlame)
+
 SlideFlame is a slide-level vision-language model based on the Open-Flamingo architecture, designed for Pathology report generation task. It integrates patch-level and slide-level visual features with language models to generate detailed reports from medical images.
 
 ## Features
